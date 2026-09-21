@@ -250,3 +250,45 @@ tbody th { color: var(--ink); }
   .diagram .k { font-size: 11px; }
   .sutra .gen { font-size: 16px; }
 }
+
+/* ---------- 用語集 ---------- */
+.jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 4px; }
+.jump a {
+  font-size: 13px; text-decoration: none; color: var(--ink-soft);
+  border: 1px solid var(--line); border-radius: var(--r-pill);
+  padding: 4px 14px; background: var(--paper);
+  transition: border-color .15s ease, color .15s ease;
+}
+.jump a:hover { border-color: var(--primary); color: var(--primary); }
+
+.gloss { margin: 8px 0 0; }
+.gloss dt {
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-weight: 600; font-size: 16px; color: var(--ink);
+  margin-top: 22px; padding: 4px 10px; margin-left: -10px;
+  border-radius: 6px 6px 0 0; scroll-margin-top: 20px;
+}
+.gloss dt .yomi {
+  font-family: "Noto Sans JP", sans-serif; font-weight: 400;
+  font-size: 12px; color: var(--ink-faint); letter-spacing: .06em; margin-left: 10px;
+}
+.gloss dd {
+  margin: 0; font-size: 15px; color: var(--ink-soft); line-height: 1.85;
+  padding: 0 10px 2px; margin-left: -10px; border-radius: 0 0 6px 6px;
+}
+.gloss dt:target { color: var(--accent); background: var(--wash-accent); }
+.gloss dt:target + dd { background: var(--wash-accent); padding-bottom: 10px; }
+
+/* ---------- 本文中の用語リンク ---------- */
+a.gl {
+  color: inherit;
+  text-decoration: underline dotted var(--primary);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+a.gl:hover {
+  color: var(--primary);
+  text-decoration: underline solid var(--primary);
+  text-underline-offset: 5px;
+}
+strong a.gl, a.gl strong { color: inherit; }
