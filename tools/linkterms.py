@@ -21,6 +21,8 @@ TERMS = [
     ("四聖諦","g-shishotai",None),("四諦","g-shishotai",None),("八正道","g-hasshodo",None),
     ("三法印","g-sanboin",None),("無常","g-mujou",None),("無我","g-muga",None),("縁起","g-engi",None),
     ("無明","g-mumyou",None),("渇愛","g-katsuai",None),("煩悩","g-bonnou",None),("三毒","g-sandoku",None),
+    ("中道","g-chudo",None),("無記","g-muki",None),
+    ("上座部","g-buha",None),("大衆部","g-buha",None),
     ("五蘊","g-goun",None),("涅槃","g-nehan",None),("阿羅漢","g-arakan",None),("部派","g-buha",None),
     ("アビダルマ","g-abidharma",None),("止観","g-shikan",None),
     ("大乗","g-daijou",None),("菩薩","g-bosatsu",r"(?<![在音蔵])菩薩"),("六波羅蜜","g-ropparamitsu",None),
