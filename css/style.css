@@ -247,7 +247,7 @@ tbody th { color: var(--ink); }
   .diagram text { font-size: 15px; }
   .diagram .lbl { font-size: 16px; }
   .diagram .big { font-size: 30px; }
-  .diagram .k { font-size: 11px; }
+  .diagram .k { font-size: 13px; }
   .sutra .gen { font-size: 16px; }
 }
 
