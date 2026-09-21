@@ -208,3 +208,45 @@ tbody th { color: var(--ink); }
   .hero h1 { font-size: 24px; }
   .ch h2 { font-size: 19px; }
 }
+
+/* ---------- 図解 ---------- */
+.diagram { width: 100%; height: auto; display: block; margin: 8px 0 4px; }
+.diagram .box { fill: var(--paper); stroke: var(--line); stroke-width: 1; }
+.diagram .ring { fill: var(--wash); stroke: var(--primary-soft); stroke-width: 1.5; }
+.diagram .core { fill: var(--primary); }
+.diagram .flow { stroke: var(--primary-soft); stroke-width: 1.5; fill: none; }
+.diagram .head { fill: var(--primary-soft); }
+.diagram text { font-size: 12px; fill: var(--ink-soft); }
+.diagram .lbl {
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-weight: 600; font-size: 14px; fill: var(--ink);
+}
+.diagram .big {
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-weight: 600; font-size: 26px; fill: var(--primary);
+}
+.diagram .k { font-size: 10px; fill: var(--ink-faint); letter-spacing: .14em; }
+.diagram .on-core { fill: var(--paper); }
+
+/* ---------- 本文中の原文引用 ---------- */
+.sutra {
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: var(--r-card); padding: 18px 20px; margin: 24px 0;
+}
+.sutra p { margin: 0 0 8px; }
+.sutra p:last-child { margin-bottom: 0; }
+.sutra .gen {
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-size: 17px; line-height: 1.9; letter-spacing: .04em;
+}
+.sutra .yomi { font-size: 13px; color: var(--ink-faint); }
+.sutra .yaku { font-size: 15px; color: var(--ink-soft); }
+
+@media (max-width: 560px) {
+  .diagram .sub { display: none; }
+  .diagram text { font-size: 15px; }
+  .diagram .lbl { font-size: 16px; }
+  .diagram .big { font-size: 30px; }
+  .diagram .k { font-size: 11px; }
+  .sutra .gen { font-size: 16px; }
+}
