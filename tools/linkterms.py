@@ -45,6 +45,8 @@ TERMS = [
     ("真言","g-shingon",r"真言(?![宗律])"),("印","g-in",r"印(?=を結|契)"),
     ("曼荼羅","g-mandara",r"(?<!立体)曼荼羅"),("マンダラ","g-mandara",None),
     ("胎蔵界","g-taizou",None),("金剛界","g-kongoukai",None),("立体曼荼羅","g-ritsutai",None),
+    ("阿闍梨","g-ajari",None),("如実知自心","g-nyojitsu",None),("六種供養","g-rokushu",None),
+    ("入定","g-nyujo",None),("同行二人","g-dogyo",None),
     ("灌頂","g-kanjou",None),("加持","g-kaji",None),("入我我入","g-nyuuga",None),("護摩","g-goma",None),
     ("大欲","g-taiyoku",None),("密厳国土","g-mitsugon",None),("光明真言","g-koumyou",None),
     ("土砂加持","g-doshakaji",None),
